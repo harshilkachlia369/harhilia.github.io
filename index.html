@@ -1,308 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- SEO Meta Tags -->
-<meta name="description" content="SpecWise helps you understand what your computer can actually do. Analyze your PC's RAM, CPU, and storage to know what tasks it can handle - explained in simple language.">
-<meta name="keywords" content="PC analyzer, computer specs, RAM checker, CPU performance, system requirements, PC upgrade guide, computer analysis">
-<meta name="author" content="SpecWise">
-
-<!-- Open Graph (for social media sharing) -->
-<meta property="og:title" content="SpecWise - Know What Your Computer Can Actually Do">
-<meta property="og:description" content="Free PC analyzer that tells you what your computer can handle in simple, human language.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://yourwebsite.com">
-
-<!-- Mobile optimization -->
-<meta name="theme-color" content="#06b6d4">
-
-<!-- Canonical URL -->
-<link rel="canonical" href="https://yourwebsite.com">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Harshil Kachalia - Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- Background Effects -->
-<div class="grain-overlay"></div>
-<div class="gradient-orb orb-1"></div>
-<div class="gradient-orb orb-2"></div>
-<div class="gradient-orb orb-3"></div>
-<div class="background-text">Harshil</div>
-
-<!-- Navbar -->
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo-section">
-      <div class="logo">HK</div>
-      <span class="logo-name">Harshil Kachalia</span>
-    </div>
-    <ul class="nav-tabs">
-      <li class="tab active" onclick="navigate('home')">Home</li>
-      <li class="tab" onclick="navigate('achievements')">Achievements</li>
-      <li class="tab" onclick="navigate('contact')">Contact</li>
-    </ul>
-  </div>
-</nav>
-
-<!-- HOME PAGE -->
-<div id="home-page" class="page active">
-  <div class="container">
-    <div class="hero-section">
-      <div class="hero-badge">Portfolio 2026</div>
-      <h1 class="hero-title">
-        <span class="gradient-text">Student</span> • 
-        <span class="gradient-text">Explorer</span> • 
-        <span class="gradient-text">Developer</span>
-      </h1>
-      <p class="hero-subtitle">Seventh grade innovator with a passion for web development</p>
-      <div class="hero-description">
-        <p>My name is <strong>Harshil Kachalia</strong>. I like developing websites and exploring new technologies. With a single goal I explore many things in search of a new skill set.</p>
-      </div>
-
-      <div class="stats-grid">
-        <div class="stat-item">
-          <div class="stat-number">7th</div>
-          <div class="stat-label">Grade</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">2+</div>
-          <div class="stat-label">Projects</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">∞</div>
-          <div class="stat-label">Curiosity</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Projects Section -->
-    <div class="projects-section">
-      <div class="section-header">
-        <h2 class="section-title">Upcoming Projects</h2>
-        <div class="section-line"></div>
-      </div>
-      <div class="projects-grid">
-        <!-- Bus Finder Project -->
-        <div class="project-card">
-          <div class="project-header">
-            <div class="project-icon">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="6" width="18" height="12" rx="2"></rect>
-                <path d="M7 6V4"></path>
-                <path d="M17 6V4"></path>
-                <path d="M12 10v4"></path>
-              </svg>
-            </div>
-            <span class="project-status">In Development</span>
-          </div>
-          <h3 class="project-title">Bus Finder</h3>
-          <p class="project-description">An intelligent route discovery system. Enter your destination and receive optimized bus route suggestions with real-time availability.</p>
-          <div class="project-tech">
-            <span class="tech-tag">Route Optimization</span>
-            <span class="tech-tag">Smart Search</span>
-          </div>
-        </div>
-
-        <!-- The Beam Scale Project -->
-        <div class="project-card featured">
-          <div class="featured-badge">Featured</div>
-          <div class="project-header">
-            <div class="project-icon">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                <polyline points="9 22 9 12 15 12 15 22"></polyline>
-              </svg>
-            </div>
-            <span class="project-status">Coming Soon</span>
-          </div>
-          <h3 class="project-title">The Beam Scale</h3>
-          <p class="project-description">Universal price comparison engine. Search any product and discover pricing across Amazon, Flipkart, Myntra, Meesho, and more platforms instantly.</p>
-          <div class="project-tech">
-            <span class="tech-tag">Price Analytics</span>
-            <span class="tech-tag">Multi-Platform</span>
-            <span class="tech-tag">AI Powered</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ACHIEVEMENTS PAGE -->
-<div id="achievements-page" class="page">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">Achievements & Recognition</h2>
-      <div class="section-line"></div>
-    </div>
-    <div class="achievements-grid">
-      <!-- Achievement 1 -->
-      <div class="achievement-card premium">
-        <div class="achievement-number">01</div>
-        <div class="achievement-content">
-          <div class="achievement-icon-wrapper">
-            <div class="achievement-icon">🏆</div>
-          </div>
-          <h3 class="achievement-title">District Level Sports Captain</h3>
-          <p class="achievement-description">Led team to 2nd place at district level competition. Multiple medals in school sports championships.</p>
-          <div class="achievement-badge">Leadership</div>
-        </div>
-      </div>
-
-      <!-- Achievement 2 -->
-      <div class="achievement-card premium">
-        <div class="achievement-number">02</div>
-        <div class="achievement-content">
-          <div class="achievement-icon-wrapper">
-            <div class="achievement-icon">🎖️</div>
-          </div>
-          <h3 class="achievement-title">Olympiad Excellence</h3>
-          <p class="achievement-description">Advanced to Level 2 in multiple olympiads. Consistent top performer in academic competitions.</p>
-          <div class="certificate-showcase">
-            <img src="https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=500&h=350&fit=crop" alt="Olympiad Certificate">
-            <div class="certificate-overlay">View Certificate</div>
-          </div>
-          <div class="achievement-badge">Academic</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Skills Section -->
-    <div class="section-header skills-section-header">
-      <h2 class="section-title">Core Competencies</h2>
-      <div class="section-line"></div>
-    </div>
-    <div class="skills-grid">
-      <!-- Skill 1 -->
-      <div class="skill-card">
-        <div class="skill-number">01</div>
-        <div class="skill-icon-bg">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M12 16v-4"></path>
-            <path d="M12 8h.01"></path>
-          </svg>
-        </div>
-        <h3 class="skill-title">Curious</h3>
-        <div class="skill-description">
-          <ul>
-            <li>Constantly questioning and exploring</li>
-            <li>Deep dive into complex topics</li>
-            <li>Multiple perspective analysis</li>
-            <li>Insatiable learner mindset</li>
-            <li>Understanding root causes</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Skill 2 -->
-      <div class="skill-card">
-        <div class="skill-number">02</div>
-        <div class="skill-icon-bg">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-          </svg>
-        </div>
-        <h3 class="skill-title">Agile</h3>
-        <div class="skill-description">
-          <ul>
-            <li>Rapid adaptation to change</li>
-            <li>Quick thinking under pressure</li>
-            <li>Flexible problem-solving approach</li>
-            <li>Embraces new challenges</li>
-            <li>Efficient decision making</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Skill 3 -->
-      <div class="skill-card">
-        <div class="skill-number">03</div>
-        <div class="skill-icon-bg">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-          </svg>
-        </div>
-        <h3 class="skill-title">Good Grasper</h3>
-        <div class="skill-description">
-          <ul>
-            <li>Quick concept comprehension</li>
-            <li>Strong information retention</li>
-            <li>Practical knowledge application</li>
-            <li>Connecting complex ideas</li>
-            <li>Accelerated skill mastery</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- CONTACT PAGE -->
-<div id="contact-page" class="page">
-  <div class="container">
-    <div class="contact-container">
-      <div class="contact-hero">
-        <div class="contact-badge">Get In Touch</div>
-        <h1 class="contact-title">Let's Connect</h1>
-        <p class="contact-subtitle">Ready to collaborate on the next big idea</p>
-      </div>
-      <div class="contact-grid">
-        <!-- Phone -->
-        <div class="contact-card">
-          <div class="contact-card-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-            </svg>
-          </div>
-          <div class="contact-card-content">
-            <h3>Phone</h3>
-            <p>8866374229</p>
-          </div>
-        </div>
-
-        <!-- Email -->
-        <div class="contact-card">
-          <div class="contact-card-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-              <polyline points="22,6 12,13 2,6"></polyline>
-            </svg>
-          </div>
-          <div class="contact-card-content">
-            <h3>Email</h3>
-            <p>harshilkachalia2@gmail.com</p>
-          </div>
-        </div>
-      </div>
-      <div class="contact-footer">
-        <p>Available for collaborations and exciting projects</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-function navigate(page) {
-  const pages = document.querySelectorAll('.page');
-  const tabs = document.querySelectorAll('.tab');
-  pages.forEach(p => p.classList.remove('active'));
-  tabs.forEach(t => t.classList.remove('active'));
-
-  if(page === 'home') {
-    document.getElementById('home-page').classList.add('active');
-    tabs[0].classList.add('active');
-  } else if(page === 'achievements') {
-    document.getElementById('achievements-page').classList.add('active');
-    tabs[1].classList.add('active');
-  } else if(page === 'contact') {
-    document.getElementById('contact-page').classList.add('active');
-    tabs[2].classList.add('active');
-  }
-}
-</script>
+    <header>
+        <h1>Welcome to My Professional Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="professional-image1.jpg" alt="Professional Image 1" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        </section>
+        <section id="services">
+            <h2>My Services</h2>
+            <img src="professional-image2.jpg" alt="Professional Image 2" />
+            <p>Detailing the various services offered.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 My Professional Website</p>
+    </footer>
 </body>
 </html>
