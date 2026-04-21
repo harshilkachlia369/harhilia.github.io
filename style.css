@@ -170,7 +170,7 @@ body {
   position: fixed;
   top: 50%;
   left: 0;
-  width: 100vw;
+  width: 70vw;
   transform: translateY(-50%);
   font-family: var(--font-display);
   font-size: 20vw;
