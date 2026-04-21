@@ -89,7 +89,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  height: 2px;
+  height: 4px;
   width: 0%;
   background: linear-gradient(90deg, var(--cyan), var(--violet), var(--pink));
   z-index: 9999;
